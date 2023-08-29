@@ -1,0 +1,34 @@
+namespace Cl; //Shorthand for Client
+
+table Person			//name field will be used as key
+{
+	age:ushort;		//age and weight are not taken as common fields between Person and Group
+	weight:float;		//since for group, they represent averages
+	gender:string;		
+}
+
+table Group
+{
+	age:float;
+	weight:float;
+	list_names:[string];	//vector of strings
+}
+
+union Client_Type		//helps store only one of Person or Group per Client
+{
+	Person,			
+	Group
+}
+
+table Client
+{
+	name:string (required, key);	//name defined here, will be used as key
+	base:Client_Type;
+}
+
+table Clients				//needed to store multiple clients in the same buffer/file
+{
+	clients:[Client];
+}
+
+root_type Clients;	//If we need just one client per buffer, we can delete the Clients table and we don't need a key

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/sample_encoder.dir/src/Encoder/sample_encoder.cpp.o -o ../bin/sample_encoder   -L/home/souvik/Test/Encoder/lib  -Wl,-rpath,/home/souvik/Test/Encoder/lib ../lib/libflatbuffers.a 

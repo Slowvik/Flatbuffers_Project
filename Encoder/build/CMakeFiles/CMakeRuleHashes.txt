@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+0fac184984c2a79e1df8e3557c65cae4 flatbuffers-build/samples/monster_generated.h
+2c3fa9c39250d3f6676a3bc05e347a3f flatbuffers-build/tests/64bit/evolution/v1_generated.h
+05b1e733f443908140052ad4a310a7dc flatbuffers-build/tests/64bit/evolution/v2_generated.h
+d25f1ea3221aced7f908aa9e55dca7ac flatbuffers-build/tests/64bit/test_64bit_generated.h
+3b00ed57104f42b3b3f8e4256d5f12ae flatbuffers-build/tests/alignment_test_generated.h
+783fc049cb510770fc74df7da641544e flatbuffers-build/tests/arrays_test_generated.h
+7697cc52aeb080656a2c942dde48c7cf flatbuffers-build/tests/key_field/key_field_sample_generated.h
+2a7b729a6e04c91e7548fc2b153b304d flatbuffers-build/tests/native_inline_table_test_generated.h
+7a59e4d18dac22c7557d904f27be6959 flatbuffers-build/tests/native_type_test_generated.h
+9934a5ea88f51306d7de64e8b7149478 flatbuffers-build/tests/union_underlying_type_test_generated.h
